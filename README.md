@@ -4,20 +4,18 @@
 此專案是關於機器學習各種方法的實作練習，涵蓋多種演算法及模型，包括 KNN、SVM、決策樹、貝氏分類器等等，旨在熟悉這些方法的基本概念與實現方式。
 
 ### 專案結構
-- **KNN**  
-  存放 K 最近鄰 (K-Nearest Neighbors) 演算法的練習程式碼。
-- **SVM**  
-  支持向量機 (Support Vector Machine) 的相關實作。
-- **決策樹**  
-  包含與決策樹相關的練習內容。
-- **貝氏**  
-  貝氏分類器 (Bayesian Classifier) 的範例與測試。
-- **迴歸模型**  
-  包括多元迴歸、Lasso、Ridge 等模型。
-- **邏輯斯迴歸**  
-  涉及邏輯斯回歸的練習程式碼。
-- **隨機森林**  
-  涉及隨機森林演算法的程式與應用。
+本專案包含以下主要資料夾，每個資料夾對應不同的機器學習演算法：
+
+- **K-means**：K-means 分群演算法
+- **KNN**：K 近鄰（K-Nearest Neighbors）分類演算法
+- **SVM**：支援向量機（Support Vector Machine）分類演算法
+- **密度聚類 (DBSCAN)**：基於密度的 DBSCAN 分群演算法
+- **層次聚類 (Hierarchical Clustering)**：階層式聚類演算法
+- **決策樹 (Decision Tree)**：決策樹分類與回歸演算法
+- **貝式 (Bayes classifier)**：貝氏分類器（如高斯貝氏分類）
+- **迴歸模型 (Multivariable Regression, Lasso, Ridge)**：線性迴歸、多元回歸、Lasso、Ridge 迴歸
+- **羅輯斯迴歸 (LogisticRegression)**：邏輯斯回歸（Logistic Regression）
+- **隨機森林 (Random Forest)**：隨機森林分類與回歸演算法
 
 ### 使用說明
 1. clone 本專案到本地端：
